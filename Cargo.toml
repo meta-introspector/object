@@ -7,7 +7,7 @@ license = "Apache-2.0 OR MIT"
 repository = "https://github.com/gimli-rs/object"
 # NB: if this number increases to 1.81-or-later delete the `build.rs` script
 # as it's no longer necessary.
-rust-version = "1.65"
+# rust-version = "1.65"
 description = "A unified interface for reading and writing object file formats."
 include = [
   "/build.rs",
@@ -131,7 +131,7 @@ should_implement_trait = "allow"
 # Unit errors are converted to other types by callers.
 result_unit_err = "allow"
 
-[workspace]
-members = ["crates/*"]
-default-members = [".", "crates/examples"]
-resolver = "2"
+#[workspace]
+#members = ["crates/*"]
+#default-members = [".", "crates/examples"]
+#resolver = "2"
